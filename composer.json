@@ -1,0 +1,34 @@
+{
+  "name": "stagem/zfc-asn",
+  "description": "Authorization Social Networks Module",
+  "type": "zf-module",
+  "license": "MIT",
+  "keywords": [
+    "zf2",
+    "zf3",
+    "zf-expressive",
+    "authorization",
+    "facebook",
+    "google",
+  ],
+  "authors": [
+    {
+      "name": "Vlad Kozak",
+      "email": "vlad.gem.typ@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6 || >=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Stagem\\ZfcAsn\\Config\\": "src/"
+    }
+  },
+  "extra": {
+    "zf": {
+      "config-provider": "Stagem\\ZfcAsn\\Config\\ConfigProvider"
+    }
+  }
+}
