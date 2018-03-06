@@ -23,12 +23,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Stagem\\ZfcAsn\\Config\\": "src/"
+      "Stagem\\ZfcAsn\\": "src/"
     }
   },
   "extra": {
     "zf": {
-      "config-provider": "Stagem\\ZfcAsn\\Config\\ConfigProvider"
+      "config-provider": "Stagem\\ZfcAsn\\ConfigProvider"
     }
   }
 }
